@@ -57,4 +57,11 @@ dependencies {
     implementation("androidx.activity:activity-ktx:1.2.2")
     // Fragment
     implementation("androidx.fragment:fragment-ktx:1.3.2")
+    // Retrofit2
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    // Retrofit2 -> Converter JSON to GSON
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+    // Coroutines Library -> Background request
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.3.6")
+
 }
